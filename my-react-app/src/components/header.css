@@ -1,0 +1,16 @@
+.header {
+    height: 110px;
+    background-color: #233D4D;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header p {
+    margin-bottom: 10px;
+}
+.header h1 {
+    font-size: 50px;
+}
+.header img {
+    max-width: 75px;
+}

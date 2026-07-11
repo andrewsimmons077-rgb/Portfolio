@@ -1,0 +1,35 @@
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from './assets/vite.svg'
+import heroImg from './assets/hero.png'
+import './App.css'
+import Block from './components/Block';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import ProjectBlock from './components/ProjectBlock';
+
+function App() {
+  return (
+  <div className='content'>
+    <Header />
+    <div className='main-body'>
+      <div className='projects'>
+        <h2>Projects</h2>
+        <span>
+          <ProjectBlock imgURL='blog-website.png' caption='Blog Website' projectURL='https://github.com/andrewsimmons077-rgb/blog-website'/>
+        </span>
+      </div>
+      <div className='certificates'>
+        <h2>Certificates</h2>
+        <span>
+          <Block imgURL='/Web-Development-Bootcamp.jpg' caption='Web Development Certificate'/>
+          <Block imgURL='/CIntermediate.jpg' caption='C# Certificate' />
+        </span>
+      </div>
+    </div>
+    <Footer />
+  </div>
+  );
+}
+
+export default App;

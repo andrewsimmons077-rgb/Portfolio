@@ -1,0 +1,9 @@
+.picture {
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10%;
+    margin: 0.5rem;
+}
