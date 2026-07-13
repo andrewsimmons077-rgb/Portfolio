@@ -1,7 +1,4 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
+import React, { useState } from 'react'
 import './App.css'
 import Block from './components/Block';
 import Header from './components/Header';
@@ -17,6 +14,7 @@ function App() {
         <h2>Projects</h2>
         <span>
           <ProjectBlock imgURL='blog-website.png' caption='Blog Website' projectURL='https://github.com/andrewsimmons077-rgb/blog-website'/>
+          <ProjectBlock imgURL='note-keeper.png' caption='Note Keeper' projectURL='https://github.com/andrewsimmons077-rgb/note-keeper' />
         </span>
       </div>
       <div className='certificates'>
