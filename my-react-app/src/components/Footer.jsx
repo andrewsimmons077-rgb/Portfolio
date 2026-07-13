@@ -1,5 +1,6 @@
 import React from 'react';
 import './footer.css';
+import { Outlet, Link } from "react-router-dom";
 
 function Footer() {
 
@@ -7,7 +8,13 @@ function Footer() {
 
     return(
         <div className='footer'>
-            <p>copyright Andrew Simmons {year}</p>
+            <p>© copyright {year}</p>
+            <p>
+                <nav>
+                    <Link className='homeLink' to='/'>Home</Link> 
+                    <Link className='contactLink' to="/contact">Contact Me</Link>
+                </nav>
+            </p>
         </div>
     );
 }

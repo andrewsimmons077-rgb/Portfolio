@@ -1,0 +1,35 @@
+.contactForm {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 10%;
+}
+.contactForm input {
+    height: 1.5rem;
+    margin-top: 1rem;
+    grid-column: 2 / span 2;
+    background-color: black;
+    border-color: #233D4D;
+    border-width: 0.25rem;
+}
+.contactForm input::placeholder, .contactForm textarea::placeholder {
+    color: #233D4D;
+}
+.contactForm textarea {
+    grid-column: 2 / span 2;
+    height: 10rem;
+    margin-top: 1rem;
+    background-color: black;
+    border-color: #233D4D;
+    resize: none;
+    border-width: 0.15rem;
+}
+.contactForm button {
+    width: 7rem;
+    height: 2rem;
+    margin-top: 1rem;
+    grid-column: 3 /span 1;
+    background-color: black;
+    border-color: #233D4D;
+    border-width: 0.25rem;
+    color: #233D4D;
+}

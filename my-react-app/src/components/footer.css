@@ -1,3 +1,15 @@
 .footer {
     background-color: #233D4D;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: gray;
+}
+.homeLink, .contactLink {
+    color: gray;
+    text-decoration: none;
+}
+.footer nav {
+    display: flex;
+    flex-direction: column;
 }
