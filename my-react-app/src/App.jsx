@@ -15,6 +15,7 @@ function App() {
         <span>
           <ProjectBlock imgURL='blog-website.png' caption='Blog Website' projectURL='https://github.com/andrewsimmons077-rgb/blog-website'/>
           <ProjectBlock imgURL='note-keeper.png' caption='Note Keeper' projectURL='https://github.com/andrewsimmons077-rgb/note-keeper' />
+          <ProjectBlock imgURL='to-do-list.png' caption='To-Do List' projectURL='https://github.com/andrewsimmons077-rgb/ToDoList' />
         </span>
       </div>
       <div className='certificates'>
