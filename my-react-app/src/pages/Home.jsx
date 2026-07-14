@@ -10,6 +10,19 @@ function Home() {
   <div className='content'>
     <Header />
     <div className='main-body'>
+      <div className='about-me'>
+        <h2>Hi! I'm Andrew</h2>
+        <span className='bio'>
+          <h3>Bio</h3>
+          <p>
+          I’m a passionate aspiring full-stack developer who loves turning ideas into fully functional web applications. 
+          From crafting responsive frontends with React to building robust backends with Node.js and databases, I’m constantly building and shipping projects that solve real problems.
+          </p>
+        </span>
+        <p className='segue'>
+          Below you will find my projects
+        </p>
+      </div>
       <div className='projects'>
         <h2>Projects</h2>
         <span>
